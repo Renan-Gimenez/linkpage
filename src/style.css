@@ -1,0 +1,84 @@
+.App{
+    min-height: 100vh;
+    min-width: 100vw;    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10vh 0;
+
+    flex-direction: column;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    background: linear-gradient(400deg, #00c0ff, #4218b8);
+    /* background: linear-gradient(400deg, #336699, #003366); */
+
+    color: white;
+}
+
+.user-info{
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+a{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #000033;
+    text-decoration: none;
+}
+
+.socialmedias{
+    max-width: 600px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+
+.socialmedia-div{
+    width: 256px;
+
+    margin: 20px 20px;
+    padding: 16px;
+    border-radius: 24px;
+    
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
+    
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.socialmedia-div:hover{
+    transform: scale(1.1);
+}
+
+.socialmedia-icon{
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2)
+
+}
+
+@media screen and (max-width: 600px) {
+    
+}
